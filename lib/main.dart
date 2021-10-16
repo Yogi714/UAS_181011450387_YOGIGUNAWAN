@@ -7,7 +7,7 @@ import "first.dart";
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
-  title: "Weather App",
+  title: "YOGI",
   home: Home(),
 ));
 

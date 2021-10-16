@@ -40,7 +40,7 @@ class _firstState extends State<first> {
       });
       //PLEASE USE WEATHER API FROM https://openweathermap.org/api
       http.Response response = await http.get(
-          "http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=8e0698e09b560bc9ab5547f182452529");
+          "http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=da00d3b1397279590c1830927fad1de4");
       var results = jsonDecode(response.body);
 
       setState(() {
@@ -62,7 +62,7 @@ class _firstState extends State<first> {
     return Scaffold(
       resizeToAvoidBottomInset: false, // set it to fals
         appBar: AppBar(
-        title: Text("AHMAD SARNUJI 181011450692"),
+        title: Text("YOGI GUNAWAN 181011450487"),
         ),
       body: Container(
 
